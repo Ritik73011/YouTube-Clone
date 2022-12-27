@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAV BAR START*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+#logo {
+    display: flex;
+    gap: 24px;
+}
+
+#drawer {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#icon {
+    display: flex;
+    margin-top: 6px;
+}
+
+#icon p {
+    font-size: 10px;
+    margin-left: 3px;
+    font-family: sans-serif;
+}
+
+#icon img {
+    width: 100px;
+    height: 56px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#searchBox {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#searchBox #sss {
+    width: 64px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #dedede;
+    background-color: #f8f8f8;
+}
+
+#searchBox #sss img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#mic {
+    width: 20px;
+    height: 22px;
+    padding: 2px;
+}
+
+#micDiv {
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+#searchBox input {
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+}
+
+#last {
+
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    padding: 8px;
+}
+
+#last img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#last div {
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #512da7;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#last div p {
+    margin-top: 6px;
+}
+
+#hrr {
+    margin-top: -13px;
+    margin-left: 240px;
+    background-color: #dedede;
+    border: none;
+    height: 1px;
+}
+
+/*NAV BAR END*/
+
+/*SEARCH RESULT PAGE*/
+#main {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-top: 70px;
+}
+
+#leftDiv {
+    width: 14%;
+}
+
+#filter {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+    width: min-content;
+}
+
+#filter p {
+    color: #60626e;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+#filter img {
+    width: 24px;
+    height: 24px;
+}
+
+#container hr {
+    margin-top: 6px;
+    background-color: #dedede;
+    border: none;
+    height: 1px;
+    margin-left: 12px;
+}
+
+#container {
+    width: 86%;
+    padding: 16px 40px;
+    margin-left: 14%;
+    background-color: #f9f9f9;
+}
+
+#Mainflex {
+    display: flex;
+    gap: 16px;
+    margin: 10px;
+}
+
+#Mainflex img {
+    width: 360px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#Mainflex h3 {
+    font-size: 18px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#Mainflex p {
+    font-size: 12px;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#publish {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/*HOME PAGE*/
+
+#gridDiv {
+    margin-top: 12px;
+}
+
+#gridDiv img {
+    width: 300px;
+    height: 170px;
+    cursor: pointer;
+}
+
+#gridDiv h3 {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #030303;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    height: 36px;
+}
+
+#divv #duration {
+    background-color: #080202;
+    color: white;
+    width: min-content;
+    font-size: 12px;
+    text-align: end;
+}
+
+#divv {
+    display: flex;
+    justify-content: end;
+    margin-top: -28px;
+    margin-right: 8px;
+}
+
+#gridDiv p {
+    font-size: 13.5px;
+    color: #606060;
+    margin-top: 6px;
+}
+
+#flexGridDiv {
+    display: flex;
+    gap: 6px;
+}
+
+/*Filter */
+
+#filterDiv {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#filterDiv h3 {
+    margin: 16px 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#filterDiv p {
+    margin-top: 10px;
+    color: #606060;
+    cursor: pointer;
+}
+
+#leftDiv {
+    margin-top: 24px;
+    text-align: start;
+    position: fixed;
+    left: 0;
+    background-color: #ffffff;
+}
+
+#leftDiv h3 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    margin-left: 12px;
+}
+
+#leftDiv hr {
+    margin-left: 16px;
+}
+
+#leftDiv p {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 24px;
+    margin-left: 20px;
+}

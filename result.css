@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+#logo {
+    display: flex;
+    gap: 24px;
+}
+
+#drawer {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#icon {
+    display: flex;
+    margin-top: 6px;
+}
+
+#icon p {
+    font-size: 10px;
+    margin-left: 3px;
+    font-family: sans-serif;
+}
+
+#icon img {
+    width: 100px;
+    height: 56px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#searchBox {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#searchBox #sss {
+    width: 64px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #dedede;
+    background-color: #f8f8f8;
+}
+
+#searchBox #sss img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#mic {
+    width: 20px;
+    height: 22px;
+    padding: 2px;
+}
+
+#micDiv {
+    border: none;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+#searchBox input {
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+}
+
+#last {
+
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    padding: 8px;
+}
+
+#last img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#last div {
+    width: 32px;
+    height: 32px;
+    color: white;
+    background-color: #512da7;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#last div p {
+    margin-top: 6px;
+}
+
+/*NAVBAR END*/
+
+/*VIDEo*/
+
+.main {
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 70px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    padding: 16px 72px;
+}
+
+.video {
+    width: 70%;
+}
+
+.side {
+    width: 30%;
+}
+
+iframe {
+    width: 100%;
+    height: 530px;
+    border: none;
+}
+
+.video h3 {
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.side img {
+    width: 90%;
+    margin-left: 24px;
+    margin-top: 10px;
+}
