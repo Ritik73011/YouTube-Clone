@@ -19,8 +19,8 @@ btn.addEventListener("click", () => {
 
 //FETCHING API
 const fetchData = (key) => {
-    //const api = 'AIzaSyACJNJ2tVcA5slF7KKvBMB0EE7pEyUqaO0';
-    const api2 = 'AIzaSyAsfCGrp5M1i5v0_Qbe7Tkajyrm-YfRn3w';
+    //const api = 'PRIVATE_KEY';
+    const api2 = 'PRIVATE_KEY2';
 
     const url = `https://youtube.googleapis.com/youtube/v3/search/?part=snippet&key=${api2}&type=video&q=${key}&maxResults=20`;
 
@@ -78,8 +78,8 @@ const setToUi = (list) => {
 
 
 const fetchDataForHomePage = () => {
-    //const api = 'AIzaSyACJNJ2tVcA5slF7KKvBMB0EE7pEyUqaO0';
-    const api2 = 'AIzaSyAsfCGrp5M1i5v0_Qbe7Tkajyrm-YfRn3w';
+    //const api = 'PRIVATE_KEY';
+    const api2 = 'PRIVATE_KEY2';
     const url = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails,snippet,statistics&metrics=views&chart=mostPopular&regionCode=IN&maxResults=20&key=${api2}`;
 
     fetch(url).then(res => {
@@ -184,7 +184,8 @@ function showFiltersUi() {
     div.id = "filterDiv";
 
     let input = document.getElementById("search").value;
-    const api2 = 'AIzaSyAsfCGrp5M1i5v0_Qbe7Tkajyrm-YfRn3w';
+   //const api = 'PRIVATE_KEY';
+    const api2 = 'PRIVATE_KEY2';
 
     const div1 = document.createElement("div");
     const upload = document.createElement("h3");
